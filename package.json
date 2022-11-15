@@ -2,11 +2,10 @@
   "name": "yourself-accountant-backend",
   "version": "1.0.0",
   "description": "Backend for Yourself Accountant App",
-  "type": "module",
   "main": "source/index.js",
   "scripts": {
     "start": "node dist/index.js",
-    "dev": "nodemon source/index.js"
+    "dev": "nodemon --exec babel-node source/index.js"
   },
   "author": "creed-dev",
   "license": "ISC",
@@ -18,6 +17,10 @@
     "sequelize-typescript": "^2.1.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
     "nodemon": "^2.0.20"
   }
 }
