@@ -2,10 +2,10 @@
   "name": "yourself-accountant-backend",
   "version": "1.0.0",
   "description": "Backend for Yourself Accountant App",
-  "main": "source/index.js",
+  "main": "source/server.js",
   "scripts": {
     "start": "node dist/index.js",
-    "dev": "nodemon --exec babel-node source/index.js"
+    "dev": "nodemon --exec babel-node source/server.js"
   },
   "author": "creed-dev",
   "license": "ISC",
